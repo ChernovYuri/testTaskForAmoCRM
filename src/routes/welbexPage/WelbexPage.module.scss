@@ -1,0 +1,100 @@
+@import './common/variables.scss';
+
+.wrapper {
+    background-color: $background-color;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    box-sizing: border-box;
+    cursor: default;
+    width: 100%;
+    min-width: 320px;
+    min-height: 100vh;
+}
+
+.desktopContainer {
+    margin: 0 auto;
+    padding-top: 46px;
+    margin-bottom: 0;
+    width: 1140px;
+    min-height: 100vh;
+}
+
+.mobileContainer {
+    width: 100%;
+    min-width: 320px;
+    padding-top: 55px;
+}
+
+/* BALLS */
+
+.desktopBalls {
+    position: relative;
+    width: 1140px;
+    margin: 0 auto;
+
+    .redLightBall {
+        position: absolute;
+        width: 311px;
+        height: 311px;
+        top: 251px;
+        left: -252px;
+        border-radius: 50%;
+        opacity: 0.5;
+        background: #961A1A;
+        filter: blur(196px);
+    }
+
+    .purpleLightBall {
+        position: absolute;
+        width: 259px;
+        height: 259px;
+        top: -154px;
+        left: 452px;
+        border-radius: 50%;
+        opacity: 0.5;
+        background: #833AB4;
+        filter: blur(196px);
+    }
+
+    .blueBall {
+        position: absolute;
+        width: 60px;
+        height: 60px;
+        top: -2px;
+        left: 718px;
+        border-radius: 50%;
+        background: radial-gradient(64% 64% at 27.25% 26.5%, rgba(236, 208, 255, 0.64) 0%, rgba(161, 93, 207, 0.24) 59.67%, rgba(118, 49, 164, 0.208) 78.59%, rgba(86, 24, 128, 0.232) 100%);
+        box-shadow: 3px 6px 27px -10px #B176D940;
+        fill: radial-gradient(82.30% 82.30% at 27.25% 26.50%, rgba(236, 208, 255, 0.64) 0%, rgba(161, 93, 207, 0.24) 59.67%, rgba(118, 49, 164, 0.21) 78.59%, rgba(86, 24, 128, 0.23) 100%);
+        filter: drop-shadow(3px 6px 27px rgba(177, 118, 217, 0.25)) blur(5px);
+        backdrop-filter: blur(2px);
+    }
+
+    .redBallLarge {
+        position: absolute;
+        width: 83px;
+        height: 83px;
+        top: 83px;
+        left: 369px;
+        border-radius: 50%;
+        background: radial-gradient(64% 64% at 27.25% 26.5%, rgba(255, 208, 208, 0.536) 0%, rgba(212, 93, 93, 0.264) 59.67%, rgba(167, 49, 49, 0.248) 78.59%, rgba(130, 25, 25, 0.248) 100%);
+        box-shadow: 3px 6px 27px -10px #DF7D7D40;
+        fill: radial-gradient(82.30% 82.30% at 27.25% 26.50%, rgba(255, 208, 208, 0.54) 0%, rgba(212, 93, 93, 0.26) 59.67%, rgba(167, 49, 49, 0.25) 78.59%, rgba(130, 25, 25, 0.25) 100%);
+        filter: drop-shadow(3px 6px 27px rgba(223, 125, 125, 0.25));
+        backdrop-filter: blur(2px);
+    }
+
+    .redBall {
+        position: absolute;
+        width: 28px;
+        height: 28px;
+        top: 547px;
+        left: 701px;
+        border-radius: 50%;
+        background: radial-gradient(64% 64% at 27.25% 26.5%, rgba(255, 208, 208, 0.48) 0%, rgba(212, 93, 93, 0.248) 59.67%, rgba(167, 49, 49, 0.264) 78.59%, rgba(130, 25, 25, 0.232) 100%);    box-shadow: 3px 6px 27px -10px #DF7D7D40;
+        box-shadow: 3px 6px 27px -10px #DF7D7D40;
+        fill: radial-gradient(82.30% 82.30% at 27.25% 26.50%, rgba(255, 208, 208, 0.48) 0%, rgba(212, 93, 93, 0.25) 59.67%, rgba(167, 49, 49, 0.26) 78.59%, rgba(130, 25, 25, 0.23) 100%);
+        filter: drop-shadow(3px 6px 27px rgba(223, 125, 125, 0.25)) blur(2.5px);
+        backdrop-filter: blur(2px);
+    }
+}

@@ -1,0 +1,310 @@
+@import '../.././common/variables.scss';
+
+/* Desktop version */
+
+.desktopContent {
+    width: 100%;
+    height: 391px;
+    margin-top: 90px;
+    color: $primary-color;
+
+    .content {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        
+        .text {
+            height: 248px;
+            width: 362px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: flex-start;
+            
+            &__main {
+                font-size: 48px;
+                font-weight: 400;
+                line-height: 58px;
+                text-align: left;
+                height: 174px;
+            
+                &__special {
+                    font-weight: 900;
+                    background-image: linear-gradient(92deg, #FCB045 27.14%, #FF3F78 121.36%);
+                    -webkit-background-clip: text;
+                    color: transparent;    
+                }
+            }
+            
+            &__footer{
+                font-family: 'Montserrat', sans-serif;
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 22px;
+                text-align: left;
+                height: 44px;
+            }
+        } 
+    
+        .consultation {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            justify-content: space-between;
+            height: 100%;   
+        
+            &__title {
+                font-size: 18px;
+                line-height: 22px;
+                text-align: right;
+                margin: 15px 0 40px 0;
+        
+                &__special {
+                    font-weight: 700;
+                    background: var(--gradient, linear-gradient(90deg, #FCB045 36.99%, #FD1D1D 100%));
+                    background-clip: text;
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    text-transform: uppercase;
+                    letter-spacing: 0.9px;
+                }
+            }
+        }    
+        
+        .gifts {
+            display: flex;
+            justify-content: flex-end;
+            flex-wrap: wrap;
+            width: 350px;
+            height: 180px;
+            font-family: 'Inter', sans-serif;
+            font-size: 18px;
+            line-height: 22px;
+            text-align: right;
+        
+            &__el {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: flex-end;
+                width: 140px;
+                height: 68px;
+                margin: 0 0 30px 30px;
+        
+                &__title {
+                    font-weight: 400;
+                    letter-spacing: 0.9px;
+                    text-transform: uppercase;
+                }
+        
+                &__description {
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: 16px;
+                    font-weight: 300;
+                    line-height: 19.5px;
+                    text-align: right;  
+                    width: 135px; 
+                }
+            }
+        }
+    
+        .consultationButton {
+            width: 262px;
+            height: 61px;
+            background-color: $background-button-color;
+            font-family: 'Inter', sans-serif;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            line-height: 19px;
+            text-align: center;
+            color: $primary-color;
+            margin-top: 50px;
+        }
+    }
+}
+
+/* Mobile version */
+
+.mobileContent {
+    min-width: 320px;
+    height: 415px;
+    padding: 40px 0 0 0;
+    color: $primary-color;
+    background-image: url('../../../../assets/images/noise.svg');;
+    
+    .glass {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 510px;
+        background: radial-gradient(304.35% 148.20% at 3.20% 3.49%, rgba(255, 246, 233, 0.10) 0%, rgba(26, 29, 35, 0.10) 26.62%, rgba(26, 29, 35, 0.10) 52.10%, rgba(26, 29, 35, 0.01) 70.17%, rgba(26, 29, 35, 0.00) 100%);
+        backdrop-filter: blur(7.5px);
+
+        .mobileBalls {
+            position: relative;
+            width: 100%;
+            margin: 0 auto;
+        
+            .purpleBall {
+                position: absolute;
+                width: 40px;
+                height: 40px;
+                top: 291px;
+                left: 92.5%;
+                border-radius: 50%;
+                background: radial-gradient(82.30% 82.30% at 27.25% 26.50%, rgba(236, 208, 255, 0.64) 0%, rgba(161, 93, 207, 0.24) 59.67%, rgba(118, 49, 164, 0.21) 78.59%, rgba(86, 24, 128, 0.23) 100%);
+                filter: drop-shadow(3px 6px 27px rgba(177, 118, 217, 0.25)) blur(5px);
+                backdrop-filter: blur(2px);
+                overflow: hidden;
+            }
+        
+            .redBall {
+                position: absolute;
+                top: 457px;
+                left: 9%;
+                width: 43px;
+                height: 43px;
+                border-radius: 50%;
+                background: radial-gradient(82.30% 82.30% at 27.25% 26.50%, rgba(255, 208, 208, 0.54) 0%, rgba(212, 93, 93, 0.26) 59.67%, rgba(167, 49, 49, 0.25) 78.59%, rgba(130, 25, 25, 0.25) 100%);
+                filter: drop-shadow(3px 6px 27px rgba(223, 125, 125, 0.25)) blur(5px);
+                backdrop-filter: blur(2px);
+            }
+
+            .redLightBall {
+                position: absolute;
+                top: 296px;
+                left: -17.19%;
+                width: 211px;
+                height: 210px;  
+                border-radius: 50%;
+                background: #961A1A;
+                opacity: 0.5;
+                filter: blur(196px);
+            }
+
+            .purpleLightBall {
+                position: absolute;
+                top: 162px;
+                left: 80.625%;
+                width: 259px;
+                height: 259px;  
+                border-radius: 50%;
+                opacity: 0.5;
+                background: #833AB4;
+                filter: blur(196px);
+            }
+        }
+    }
+
+    .content {
+        width: 100%;
+        min-width: 320px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        background: none;
+    
+    .text {
+        height: 191px;
+        width: 272px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding-left: 14px;
+        margin-bottom: 45px;
+        z-index: 2;
+        
+        &__main {
+            font-size: 36px;
+            font-weight: 400;
+            text-align: left;
+            height: 132px;
+        
+            &__special {
+                height: 44px;
+                font-weight: 900;
+                background-image: linear-gradient(92deg, #FCB045 27.14%, #FF3F78 121.36%);
+                -webkit-background-clip: text;
+                color: transparent;    
+            }
+        }
+        
+        &__footer{
+            font-family: 'Montserrat', sans-serif;
+            font-size: 18px;
+            font-weight: 400;
+            text-align: left;
+            height: 44px;
+        }
+    } 
+
+    .consultation {
+        z-index: 2;
+        display: flex;
+        width: 272px;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        height: 110px;
+        padding-left: 14px;
+    
+        &__title {
+            font-size: 18px;
+            text-align: left;
+            margin-bottom: 20px;
+    
+            &__special {
+                height: 44px;
+                font-weight: 700;
+                background: var(--gradient, linear-gradient(90deg, #FCB045 36.99%, #FD1D1D 100%));
+                background-clip: text;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+        }
+
+        .gifts {
+            display: flex;
+            justify-content: flex-start;
+            flex-wrap: wrap;
+            height: 46px;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 13px;
+            max-width: 300px;
+            min-width: 275px;
+
+            &__el {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: flex-start;
+                margin: 0 10px 14px 0;
+        
+                &__title {
+                    display: flex;
+                    align-items: center;
+                    height: 16px;
+                    min-width: 114px;
+                    max-width: 141px;
+                    font-size: 13px;
+                    font-weight: 400;
+                    letter-spacing: 0.65px;
+                    text-transform: uppercase;
+                    gap: 5px;
+
+                    .line{
+                        display: flex;
+                        align-items: center;
+                        width: 10px;
+                        height: 1px;
+                        background: linear-gradient(90deg, #FCB045 36.99%, #FD1D1D 100%);                    }
+                }
+            }
+        }
+    }
+    }
+
+}

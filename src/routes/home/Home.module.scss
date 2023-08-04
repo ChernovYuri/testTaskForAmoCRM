@@ -1,0 +1,25 @@
+
+.wrapper {
+    margin: 15% auto;
+    width: 50%;
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .task {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 250px;
+        font-size: 40px;
+
+        button {
+            height: 5vh;
+            width: 10vw;
+            font-size: 0.5em;
+            cursor: pointer;
+        }
+    }
+}

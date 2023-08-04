@@ -1,0 +1,121 @@
+@import '../.././common/variables.scss';
+
+/* Desktop version */
+
+.desktopHeader {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    min-width: 100%;
+    min-height: 55px;
+    height: 73px;
+    max-height:73px;
+    padding-top: 11px;
+    color: $primary-color;
+
+    .content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+    .logoAndNav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 695px;
+
+        &__logo {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            width: 140px;
+        }
+
+        .navMenu {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            width: 500px;
+            height: 19px;
+            font-size: 16px;
+            text-align: left;
+            
+            &_el {
+                cursor: pointer;
+                z-index: 2;
+                background: none;
+            }
+        }
+    }
+
+    .contacts {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 310px;
+
+        &__links {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 120px;
+            
+            .link {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .description {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 100%;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 12px;
+        text-align: left;
+    }
+}
+
+/* Mobile version */
+
+.mobileHeader {
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    min-width: 320px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: $background-color;
+    color: $primary-color;
+    height: 55px;
+    font-size: 12px;
+    text-transform: uppercase;
+
+    .mobileNavMenu{
+        width: 90%;
+        .navMenu {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+        }
+    }
+}
+
