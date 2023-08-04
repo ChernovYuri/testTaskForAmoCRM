@@ -17,7 +17,7 @@ export const Home = () => {
 
     return (
         <div className={s.wrapper}>
-            {task('1', 'Countdown timer', '/timer')}
+            {task('1', 'Timer', '/timer')}
             {task('2', 'Welbex page', '/welbex')}
         </div>
     );

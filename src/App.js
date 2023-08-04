@@ -1,4 +1,5 @@
-import './App.css'
+import React from 'react';
+import './App.css';
 import { Route, Routes } from "react-router-dom";
 import { CountdownTimer } from './routes/countdownTimer/CountdownTimer';
 import { WelbexPage } from './routes/welbexPage/WelbexPage';

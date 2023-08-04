@@ -1,25 +1,36 @@
-
 .wrapper {
-    margin: 15% auto;
-    width: 50%;
-    height: 80%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 30%;
+  height: 100vh;
+  font-size: 24px;
+  color: #333;
+  cursor: default;
+}
 
-    .task {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        height: 250px;
-        font-size: 40px;
+.task {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 45%;
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
 
-        button {
-            height: 5vh;
-            width: 10vw;
-            font-size: 0.5em;
-            cursor: pointer;
-        }
-    }
+.task button {
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.task button:hover {
+  background-color: #ffffff;
 }
