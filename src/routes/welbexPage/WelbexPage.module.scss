@@ -13,9 +13,9 @@
 
 .desktopContainer {
     margin: 0 auto;
-    padding-top: 46px;
+    padding: 46px 20px 0 20px;
     margin-bottom: 0;
-    width: 1140px;
+    width: 1180px;
     min-height: 100vh;
 }
 
@@ -28,9 +28,12 @@
 /* BALLS */
 
 .desktopBalls {
-    position: relative;
-    width: 1140px;
+    position: absolute;
+    width: 100%;
+    max-width: 1140px;
+    height: 800px;  
     margin: 0 auto;
+    overflow: hidden;
 
     .redLightBall {
         position: absolute;

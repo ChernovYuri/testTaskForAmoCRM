@@ -129,7 +129,7 @@
 .mobileContent {
     min-width: 320px;
     height: 415px;
-    padding: 40px 0 0 0;
+    margin-top: 40px;
     color: $primary-color;
     background-image: url('../../../../assets/images/noise.svg');;
     
@@ -137,15 +137,14 @@
         position: absolute;
         top: 0;
         width: 100%;
+        min-width: 320px;
         height: 510px;
         background: radial-gradient(304.35% 148.20% at 3.20% 3.49%, rgba(255, 246, 233, 0.10) 0%, rgba(26, 29, 35, 0.10) 26.62%, rgba(26, 29, 35, 0.10) 52.10%, rgba(26, 29, 35, 0.01) 70.17%, rgba(26, 29, 35, 0.00) 100%);
         backdrop-filter: blur(7.5px);
 
-        .mobileBalls {
-            position: relative;
-            width: 100%;
+            overflow: hidden;            
             margin: 0 auto;
-        
+
             .purpleBall {
                 position: absolute;
                 width: 40px;
@@ -194,7 +193,7 @@
                 background: #833AB4;
                 filter: blur(196px);
             }
-        }
+        
     }
 
     .content {

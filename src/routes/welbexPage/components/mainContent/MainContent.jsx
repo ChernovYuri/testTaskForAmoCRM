@@ -8,12 +8,12 @@ export const MainContent = () => {
 
   const mobileBalls = () => {
     return (
-      <div className={s.mobileBalls}>
+      <>
         <div className={s.purpleBall}></div>
         <div className={s.redBall}></div>
         <div className={s.redLightBall}></div>
         <div className={s.purpleLightBall}></div>
-      </div>
+      </>
     )
   }
 

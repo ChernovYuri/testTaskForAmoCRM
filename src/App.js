@@ -7,12 +7,10 @@ import { Home } from './routes/home/Home';
 export const App = () => {
 
   return (
-    <div>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/timer" element={<CountdownTimer />} />
         <Route path="/welbex" element={<WelbexPage />} />
       </Routes>
-    </div>
   );
 };
