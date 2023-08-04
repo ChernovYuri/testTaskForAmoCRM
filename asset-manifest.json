@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/testTaskForAmoCRM/static/css/main.e6d2342e.css",
-    "main.js": "/testTaskForAmoCRM/static/js/main.1c272e23.js",
+    "main.css": "/testTaskForAmoCRM/static/css/main.c1bf5a57.css",
+    "main.js": "/testTaskForAmoCRM/static/js/main.6f07d051.js",
     "static/js/787.7e6b4a18.chunk.js": "/testTaskForAmoCRM/static/js/787.7e6b4a18.chunk.js",
     "static/media/Inter-Black.ttf": "/testTaskForAmoCRM/static/media/Inter-Black.143c28420846d45c5834.ttf",
     "static/media/Inter-Bold.ttf": "/testTaskForAmoCRM/static/media/Inter-Bold.88fa7ae373b07b41ecce.ttf",
@@ -20,12 +20,12 @@
     "index.html": "/testTaskForAmoCRM/index.html",
     "static/media/telegramIcon.svg": "/testTaskForAmoCRM/static/media/telegramIcon.093841d129a2146182dcadbbff2a8f51.svg",
     "static/media/telegramIconLarge.svg": "/testTaskForAmoCRM/static/media/telegramIconLarge.3e29312f16d48835175251d0ed8e7941.svg",
-    "main.e6d2342e.css.map": "/testTaskForAmoCRM/static/css/main.e6d2342e.css.map",
-    "main.1c272e23.js.map": "/testTaskForAmoCRM/static/js/main.1c272e23.js.map",
+    "main.c1bf5a57.css.map": "/testTaskForAmoCRM/static/css/main.c1bf5a57.css.map",
+    "main.6f07d051.js.map": "/testTaskForAmoCRM/static/js/main.6f07d051.js.map",
     "787.7e6b4a18.chunk.js.map": "/testTaskForAmoCRM/static/js/787.7e6b4a18.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6d2342e.css",
-    "static/js/main.1c272e23.js"
+    "static/css/main.c1bf5a57.css",
+    "static/js/main.6f07d051.js"
   ]
 }
